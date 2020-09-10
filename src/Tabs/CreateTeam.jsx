@@ -148,7 +148,7 @@ const CreateTeam = () => {
           <IntegratedSummary />
 
           <IntegratedFiltering />
-          <VirtualTable columnExtensions={columnWidthConfig} height="70vh" />
+          <VirtualTable columnExtensions={columnWidthConfig} height="100vh" />
           <TableSelection showSelectAll highlightRow selectByRowClick />
           <TableColumnReordering
             order={orginalOrder}
